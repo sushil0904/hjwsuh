@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#check {
+    display: none;
+}
+
+.h {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ff0000;
+    align-items: center;
+    height: 60px;
+}
+
+.h a:hover {
+    color: blue;
+    text-decoration: underline blue;
+    font-weight: 1000;
+    animation: forwards;
+    animation-duration: 0.3s;
+    font-size: larger;
+}
+
+.h a {
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+}
+
+.heading {
+    text-align: center;
+    margin: 25px;
+    font-size: 40px;
+    color: red;
+    font-weight: bolder;
+}
+
+.description,
+.biodata {
+    margin: 20px;
+    padding: 20px;
+}
+
+.books {
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+}
+
+.book1 {
+    background-color: rgba(128, 128, 128, 0.334);
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+
+.book1 .name {
+    font-size: larger;
+    margin: 20px;
+}
+
+.book1 .name:hover {
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.book1 .author {
+    font-size: medium;
+    margin: 20px;
+}
+
+.book1 .author:hover {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+}
+
+.book1 .cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.book1 .cart .buy {
+    background-color: rebeccapurple;
+    color: white;
+    width: 80px;
+    border: solid black;
+    border-radius: 15px;
+}
+
+.book1 .cart .buy:hover {
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.book1 .cart .add {
+    background-color: rebeccapurple;
+    color: white;
+    width: 80px;
+    border: solid black;
+    border-radius: 15px;
+}
+
+.book1 .cart .add:hover {
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+}
